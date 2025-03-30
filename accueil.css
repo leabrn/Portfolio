@@ -1,0 +1,26 @@
+
+body{
+    background-image: url("dentelle.jpg");
+}
+
+body div{
+    position: absolute;
+    display: inline-flex;
+    left: 40%;
+    top: 35%;
+}
+
+.centre{
+    background-color: rgb(23, 255, 255);
+}
+
+.perso{
+    height: 300px;
+}
+
+.text{
+    background-color: aliceblue;
+    margin: auto;
+    margin-left: 50px;
+    width: 100px;
+}
