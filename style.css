@@ -229,6 +229,25 @@ section h1 {
     line-height: 1.6;
 }
 
+.texte a {
+
+    color :darkslateblue;
+
+    margin: 0 10px;
+
+    text-decoration: none;
+
+}
+
+
+ 
+
+.texte a:hover {
+    color: #ff90e8;
+    text-decoration: underline;
+
+}
+
  
 
 /* Footer contact */
