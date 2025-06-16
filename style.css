@@ -187,10 +187,6 @@ section h1 {
     text-align: center;
 }
 
-.projets{
-    float: left;
-}
-
 
 .perso{
     margin: auto;
@@ -198,7 +194,39 @@ section h1 {
 }
 
 .cv{
-    float: right;
+    float: center;
+}
+
+
+.projet {
+  display: flex;
+  flex-direction: row; /* image à gauche, texte à droite */
+  align-items: flex-start;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.projets {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+    display: flex;
+}
+
+.texte {
+  flex: 1;
+}
+
+.texte h2 {
+  margin: 0 0 10px;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+.texte p {
+  margin: 0;
+    line-height: 1.6;
 }
 
  
