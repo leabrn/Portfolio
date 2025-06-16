@@ -195,6 +195,13 @@ section h1 {
 
 .cv{
     float: right;
+    color :darkslateblue;
+    text-decoration: none;
+}
+
+.cv:hover{
+    color: #ff90e8;
+    text-decoration: underline;
 }
 
 
