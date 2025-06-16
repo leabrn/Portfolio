@@ -183,6 +183,23 @@ section {
 
 }
 
+section h1 {
+    text-align: center;
+}
+
+section img{
+    float: left;
+}
+
+
+.perso{
+    margin: auto;
+    display: flex;
+}
+
+.cv{
+    float: right;
+}
 
  
 
