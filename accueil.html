@@ -1,30 +1,109 @@
-<!doctype html>
+
+
+<!DOCTYPE html>
+
 <html lang="fr">
 
 <head>
-  <meta charset="utf-8">
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Portfolio Léa BARON</title>
-  <link rel="stylesheet" href="accueil.css">
+
+  <link rel="stylesheet" href="style.css" />
+
 </head>
 
-<header>
-    
-</header>
 
-<body>
-    <div class="'centre">
+ 
 
-        <div class="perso">
-            <img src="lea.png" alt="Personnage">
-            <p class="text">
-                Bonjour je suis léa.
-            </p>
+<body class="fade">
 
-        </div>    
+
+ 
+
+<nav class="navbar" id="navbar">
+
+  <div class="burger" onclick="toggleMenu()">
+
+    <div></div><div></div><div></div>
+
+  </div>
+
+  <ul>
+
+    <li><a href="index.html">Accueil</a></li>
+
+    <li><a href="parcours.html">Parcours</a></li>
+
+    <li><a href="experience.html">Expérience</a></li>
+
+    <li><a href="projets.html">Projets</a></li>
+
+    <li><a href="contact.html">Contact</a></li>
+
+  </ul>
+
+</nav>
+
+
+ 
+
+<section class="intro">
+
+  <div class="presentation">
+
+    <img src="lea.png" alt="Personnage pixel" class="perso" />
+
+    <div class="text">
+
+      <h1>Bonjour, je suis Léa</h1>
+
+      <p>Étudiante en BUT Informatique, passionnée de jeux vidéo, art et développement.</p>
+
     </div>
-</body>
+
+  </div>
+
+</section>
+
+
+ 
 
 <footer>
+
+  <p>
+
+    <a href="mailto:lea.baron.3006@gmail.com">lea.baron.3006@gmail.com</a> |
+
+    <a href="https://github.com/leabrn" target="_blank">GitHub</a> |
+
+    <a href="https://www.linkedin.com/in/lea-baron" target="_blank">LinkedIn</a> |
+
+    07 82 33 42 43
+
+  </p>
+
 </footer>
+
+
+ 
+
+<script>
+
+  function toggleMenu() {
+
+    document.getElementById("navbar").classList.toggle("active");
+
+  }
+
+</script>
+
+
+ 
+
+</body>
 
 </html>
