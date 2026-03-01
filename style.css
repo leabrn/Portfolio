@@ -7,6 +7,9 @@ body {
     background-image: url("dentelle.jpg");
 
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     font-family: 'Courier New', Courier, monospace;
 
@@ -119,6 +122,14 @@ body {
 
     margin: 5px;
 
+}
+
+.centre {
+    text-align: center;
+
+    color: #ff90e8;
+
+    font-size: 1.2em;
 }
 
 
